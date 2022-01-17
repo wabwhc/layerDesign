@@ -16,7 +16,6 @@ export class background{
     }
 
     draw(){
-        
         for(let i = 0; i < this.count; i++){
             this.backs[i].draw();
         }
